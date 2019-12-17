@@ -1,0 +1,24 @@
+{
+  "name": "rjs-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --out-dir build --open",
+    "defs": "npm run clean && tsc -w -p types",
+    "clean": "rm -rf ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jquery": "^3.3.31",
+    "@types/promise": "^7.1.30",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "@types/braintree-web": "^3.47.0",
+    "promise": "^8.1.0",
+    "typescript": "3.6.3"
+  }
+}
