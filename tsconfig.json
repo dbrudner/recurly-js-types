@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "jsx": "preserve",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "lib": ["es6", "dom"],
+        "rootDir": "test",
+        "moduleResolution": "node",
+        "outDir": "./build"
+    },
+    "exclude": ["types/**/*"]
+}

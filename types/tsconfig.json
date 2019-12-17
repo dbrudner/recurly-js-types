@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "lib": ["es6", "dom"],
+        "emitDeclarationOnly": true,
+        "declaration": true,
+        "outFile": "../dist/index.js",
+        "moduleResolution": "node"
+    }
+}
